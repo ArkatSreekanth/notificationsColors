@@ -1,0 +1,61 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-heading {
+  color: #0f172a;
+  font-size: 32px;
+  margin: auto;
+}
+
+.notification-container {
+  min-width: 70%;
+}
+
+.notification {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 12px;
+  width: 95%;
+  margin: 18px;
+  margin-left: 0px;
+  border-radius: 2px;
+}
+
+.notification-icon {
+  width: 40px;
+  margin-right: 18px;
+}
+
+.notification-text {
+  font-size: 18px;
+}
+
+.primary-notification {
+  background-color: #0b69ff;
+}
+
+.success-notification {
+  background-color: #2dca73;
+}
+
+.warning-notification {
+  background-color: #ffb800;
+}
+
+.danger-notification {
+  background-color: #ff0b37;
+}
+
+@media (min-width: 768px) {
+}
